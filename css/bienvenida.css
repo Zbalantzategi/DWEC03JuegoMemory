@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+section.explicacion {
+    padding: 0 25% 0 25%;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.titulo {
+    font-size: 24px;
+}
+
+section.botones {
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 25% 0 25%;
+}
+
+button {
+    background-color: rgba(208, 59, 228, 0.37) ;
+    border: 1px solid rgba(208, 59, 228, 1);
+    font-family: "Lato", sans-serif;
+    color: rgba(208, 59, 228, 1);
+    border-radius: 20px;
+    height: 30px;
+}

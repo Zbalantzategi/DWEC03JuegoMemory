@@ -1,0 +1,96 @@
+header.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 15% 0 15%;
+}
+
+.titulo {
+    display: flex;
+}
+
+
+.tablero {
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    perspective: 1000px;
+
+}
+
+
+.marcador {
+    display: flex;
+}
+
+img.logo {
+    height: 30px;
+    width: auto;
+}
+
+
+.carta {
+    width: 150px;
+    height: 250px;
+    cursor: pointer;
+    position: relative;
+
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.carta.emparejada {
+    opacity: 0.5;
+    cursor: default;
+
+    transform: rotateY(180deg);
+}
+
+.anverso, .reverso {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+    line-height: 260px;
+    color: pink;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.anverso img,
+.reverso img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.anverso {
+    background: white;
+}
+
+.reverso {
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+
+    /* */
+    transform: rotateY(180deg);
+}
+
+/* clase que voltea la tarjeta */
+.carta.voltear {
+    /* */
+    transform: rotateY(180deg);
+}

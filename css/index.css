@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding: 30px;
+    border: 1px solid rgba(59, 129, 228, 1);
+    border-radius: 30px;
+}
+
+main section h3 {
+    padding-bottom: 20px;
+}
+
+form.formulario {
+    display:flex;
+    flex-direction: column;
+}
+
+#nombre {
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+#contrasenia {
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+button {
+    background-color: rgba(208, 59, 228, 0.37) ;
+    border: 1px solid rgba(208, 59, 228, 1);
+    font-family: "Lato", sans-serif;
+    color: rgba(208, 59, 228, 1);
+    border-radius: 20px;
+    height: 30px;
+}
+
