@@ -20,7 +20,7 @@ const resultado = localStorage.getItem('resultadoJuego');
 if (resultado === 'victoria') {
         mensajeTitulo.textContent = '¡FELICIDADES, HAS GANADO!';
         puntuacionElemento.textContent = `Vidas restantes: ${vidasParseado}`;
-    } else { // Esto cubre 'derrota' o si no se encuentra el resultado
+    } else {
         mensajeTitulo.textContent = '¡HAS PERDIDO!';
         puntuacionElemento.textContent = `Vidas restantes: ${vidasParseado}`;
     }
