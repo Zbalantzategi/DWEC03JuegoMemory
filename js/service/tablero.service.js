@@ -1,14 +1,14 @@
 //Función para generar el tablero 
 export function generarTablero(pares) {
     const rutasImagenes = [
-        '../../img/imagen1.png',
-        '../../img/imagen2.png',
-        '../../img/imagen3.png',
-        '../../img/imagen4.png',
-        '../../img/imagen5.png',
-        '../../img/imagen6.png',
-        '../../img/imagen7.png',
-        '../../img/imagen8.png',
+        'img/imagen1.png',
+        'img/imagen2.png',
+        'img/imagen3.png',
+        'img/imagen4.png',
+        'img/imagen5.png',
+        'img/imagen6.png',
+        'img/imagen7.png',
+        'img/imagen8.png',
     ];
 
     //selección de rutas necesarias para el nivel y duplicación de array para los pares
